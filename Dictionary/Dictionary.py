@@ -1,4 +1,4 @@
-# Dictionary --> If we want to store elements in the forkm of  
+# Dictionary --> If we want to store elements in the form of  
 # keys and values pair then we are going to use dictionary.
 
 # name : "Pratyush"
@@ -10,7 +10,7 @@
 
 # Properties of Dictionaries:
 
-# 1.Keys cannot be duplicate if you are giving duplicate keys then  only 
+# 1.Keys cannot be duplicate if you are giving duplicate keys then only last
 #   key value pair will be considered.
 
 # 2.Disimilar Objects are allowed for keys as well as for values. 
@@ -88,7 +88,7 @@
 # d[30] = "Java"
 # d[30] = "C++"
 # d[60] = "Python"
-# print(d)
+# print(d) #{10:20,30:"C++",60:"Python"}
 
 # How to Delete a key value pair from a dictionary?
 
@@ -146,6 +146,8 @@
 # {'name': 'Pratyush', 'Class': 'DS0606023', 'College': 'Edyoda Digital University'}
 # {}
 
+
+# del dict_name[key] --> Specified key value pair will be deleted
 # del  --> complete dictionary object will be deleted
 # clear  --> Only key value pair of the dict will be deleted.
 
